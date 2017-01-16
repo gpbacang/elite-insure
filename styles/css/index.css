@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:400,700,900");
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Lato", sans-serif; }
+
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+  padding-bottom: 25px;
+  color: white;
+  z-index: 2;
+  position: relative; }
+  .container.border {
+    border-bottom: 1px solid rgba(250, 250, 250, 0.5); }
+  .container.center {
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px; }
+  .container > #branding {
+    float: left;
+    letter-spacing: 2px; }
+    .container > #branding > h1 {
+      margin: 0; }
+  .container > nav {
+    float: right;
+    margin-top: 15px;
+    font-size: 18px;
+    padding-right: 20px; }
+    .container > nav > ul {
+      margin: 0;
+      padding: 0; }
+      .container > nav > ul > li {
+        float: left;
+        display: inline;
+        padding: 0 20px 0 20px; }
+
+header {
+  padding-top: 30px;
+  min-height: 70px;
+  color: white; }
+
+#showcase {
+  width: 100%;
+  min-height: 500px;
+  background: url("https://lifetime-prod.imgix.net/assets/home/slides/contact.jpg?q=50&fit=crop&crop=top") no-repeat;
+  background-size: 100%;
+  position: absolute;
+  top: 0;
+  z-index: -1;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  #showcase > .overlay {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.6;
+    position: absolute; }
+  #showcase > .container > div {
+    font-size: 60px;
+    text-transform: uppercase; }
+  #showcase > .container > p {
+    width: 60%;
+    font-size: 20px;
+    font-weight: lighter;
+    letter-spacing: 1px; }
+
+/*# sourceMappingURL=index.css.map */
